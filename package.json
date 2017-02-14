@@ -3,5 +3,8 @@
   "version": "0.1.0",
   "description": "Material Components for React",
   "license": "MIT",
-  "author": "Eric Wang <ericwan@alumni.upenn.edu>"
+  "author": "Eric Wang <ericwan@alumni.upenn.edu>",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
