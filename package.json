@@ -5,6 +5,9 @@
   "license": "MIT",
   "author": "Eric Wang <ericwan@alumni.upenn.edu>",
   "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.0",
+    "babel-preset-es2015": "^6.22.0",
     "webpack": "^2.2.1"
   }
 }

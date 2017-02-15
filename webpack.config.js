@@ -9,6 +9,20 @@ module.exports = {
     library: 'MDCReact',
     libraryTarget: 'umd',
     umdNamedDefine: true
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        include: [
+          path.resolve(__dirname, 'src')
+        ],
+        loader: 'babel-loader',
+        options: {
+          presets: ['es2015']
+        }
+      }
+    ]
   }
 };
 
