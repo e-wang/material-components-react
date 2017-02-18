@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "Eric Wang <ericwan@alumni.upenn.edu>",
   "scripts": {
+    "lint": "eslint .",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
