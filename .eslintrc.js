@@ -15,5 +15,15 @@ module.exports = {
     },
     "plugins": [
         "react"
-    ]
+    ],
+    "rules": {
+        "import/no-extraneous-dependencies": ["error", {
+            "devDependencies": [
+                "**/*.stories.js"
+            ]
+        }],
+        "react/jsx-filename-extension": ["error", {
+            "extensions": [".js"]
+        }]
+    }
 };
