@@ -17,10 +17,17 @@ module.exports = {
         include: [
           path.resolve(__dirname, 'src'),
         ],
-        loader: 'babel-loader',
-        options: {
-          presets: ['es2015', 'react'],
-        },
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['es2015', 'react'],
+            },
+          },
+          {
+            loader: 'eslint-loader',
+          },
+        ],
       },
     ],
   },
