@@ -28,6 +28,7 @@ module.exports = {
         "react/jsx-filename-extension": ["error", {
             "extensions": [".js"]
         }],
-        "react/jsx-max-props-per-line": "error"
+        "react/jsx-max-props-per-line": "error",
+        "react/require-default-props": "off"
     }
 };
