@@ -22,8 +22,12 @@ module.exports = {
                 "**/*.stories.js"
             ]
         }],
+        "import/order": ["error", {
+            "newlines-between": "always"
+        }],
         "react/jsx-filename-extension": ["error", {
             "extensions": [".js"]
-        }]
+        }],
+        "react/jsx-max-props-per-line": "error"
     }
 };
