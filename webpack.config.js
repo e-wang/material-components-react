@@ -1,12 +1,22 @@
 const path = require('path');
 
+const library = 'MDCReact';
+
+const argv = process.argv;
+let filename;
+if (argv.includes('--optimize-minimize') || argv.includes('-p')) {
+  filename = `${library}.min.js`;
+} else {
+  filename = `${library}.js`;
+}
+
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'MDCReact.js',
-    library: 'MDCReact',
+    filename,
+    library,
     libraryTarget: 'umd',
     umdNamedDefine: true,
   },
