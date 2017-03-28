@@ -8,6 +8,10 @@
     "dist"
   ],
   "main": "dist/MDCReact.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-wang/material-components-react.git"
+  },
   "scripts": {
     "lint": "eslint .",
     "storybook": "start-storybook -p 9001 -c .storybook"
