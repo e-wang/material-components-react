@@ -33,6 +33,7 @@ module.exports = {
             options: {
               presets: ['es2015', 'react'],
               plugins: [
+                'transform-class-properties',
                 'transform-object-rest-spread',
               ],
             },
