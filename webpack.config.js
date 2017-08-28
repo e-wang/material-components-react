@@ -34,6 +34,13 @@ module.exports = {
               presets: ['es2015', 'react'],
               plugins: [
                 'transform-class-properties',
+                ['transform-imports', {
+                  lodash: {
+                    // eslint-disable-next-line no-template-curly-in-string
+                    transform: 'lodash/${member}',
+                    preventFullImport: true,
+                  },
+                }],
                 'transform-object-rest-spread',
               ],
             },

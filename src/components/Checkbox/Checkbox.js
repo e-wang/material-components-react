@@ -2,7 +2,7 @@ import React, { PureComponent, PropTypes } from 'react';
 import classNames from 'classnames';
 import { MDCCheckboxFoundation } from '@material/checkbox/dist/mdc.checkbox';
 import { getCorrectEventName } from '@material/animation/dist/mdc.animation';
-import omit from 'lodash.omit';
+import { omit } from 'lodash';
 
 export default class Checkbox extends PureComponent {
   static propTypes = {
