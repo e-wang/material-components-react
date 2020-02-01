@@ -21,7 +21,9 @@
     "@material/button": "^0.2.1",
     "@material/checkbox": "^0.2.1",
     "classnames": "^2.2.5",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.13"
+  },
+  "peerDependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
@@ -43,6 +45,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.9.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "webpack": "^2.2.1"
   }
 }
